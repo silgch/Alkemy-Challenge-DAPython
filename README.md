@@ -47,7 +47,7 @@ Para poder instalar los módulos necesarios para usar  la aplicacion,  solo debe
 - INSTALAR EL ENTORNO VIRTUAL:
 ```
 pip install virtualenv
-python -m virtualenv envChallenge
+python -m virtualenv myenv
 
 ```
 (NOTA: Requisito tener instalado PIP)<br>
@@ -56,9 +56,9 @@ python -m virtualenv envChallenge
 
 
 En Windows, ejecuta:
-`envChallenge\Scripts\activate  `<br>
+`myenv\Scripts\activate  `<br>
 En Unix o MacOS, ejecuta:
-`source envChallenge/bin/activate` <br>
+`source myenv/bin/activate` <br>
 Luego, podras instalar las dependencias necesarias con el siguiente comando: 
 `pip install -r requirements.txt`
 
@@ -82,9 +82,9 @@ python actualizar.py
 ## Observaciones 👈
 
 Las direcciones  URL de donde  se descargan los archivos fuentes pueden configurarse modificando  el archivo <b>settings.ini</b> en los campos:
-- url_cines
-- url_museos
-- url_bibliotecas
+- URL_CINES
+- URL_MUSEOS
+- URL_BIBLIOTECAS
 
 
 
